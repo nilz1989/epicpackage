@@ -1,18 +1,11 @@
 Package: epicpackage
-Type: Package
 Title: Simple Data Cleaning and Sample Data Functions
 Version: 0.1.0
-Authors@R: person(
-  given = "Nils",
-  family = "Przybylla",
-  email = "nilz1989@web.de",
-  role = c("aut", "cre")
-)
-Description: Provides functions to clean and standardize character strings and fetch example datasets, 
-  designed to simplify common data preparation tasks in R.
+Authors@R: person(given = "Nils", family = "Przybylla", email = "nilz1989@web.de", role = c("aut", "cre"))
+Description: Provides functions to clean and standardize character strings and fetch example datasets.
 License: MIT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
 Imports:
-  utils
+    utils
